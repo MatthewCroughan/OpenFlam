@@ -1,0 +1,9 @@
+import passwd
+import shadow
+v = shadow.getusershell()
+v.set_password('hunter2', 'password')
+f = open('/etc/shadow', 'w')
+f.write(v.export())
+f.close()
+v.updatePwdhash()
+print "DONE!"
