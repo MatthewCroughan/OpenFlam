@@ -7,4 +7,4 @@ You could probably write one yourself, but I think this would be better served b
 
 ## Installation
 
-Start by getting the system up and running. If everything goes well, it should just boot into a text console. You can then type `"./start_whammy"` to start the program and press enter to get started. You may need to reboot for things to actually work though so make sure you have an internet connection before doing anything else!
+Start by getting the system up and running by cloning this repository. If everything goes well, it should just boot into a text console. You can then type `"./start_whammy"` to start the program and press enter to get started. You may need to reboot for things to actually work though so make sure you have an internet connection before doing anything else!
